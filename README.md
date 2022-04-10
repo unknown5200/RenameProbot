@@ -54,4 +54,8 @@ Telegram File Renamer Bot
 <a href="https://instagram.com/ch.vivek_tomar"><img src="https://img.shields.io/badge/Instagram-Vivek Tomar-magenta?style=for-the-badge&logo=instagram"></a>
 </p>
 
+##  CONTACT ME ON 🥰➡️ 
 
+<p align="left">
+<a href="https://t.me/ChVivekTomar"><img src="https://img.shields.io/badge/My%20TG%20ID-Vivek%20Tomar-darkblue?style=for-the-badge&logo=telegram"></a>
+</p>
