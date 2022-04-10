@@ -32,8 +32,6 @@ Telegram File Renamer Bot
 * `/viewthumb` View Thumbnail 
 > Delete Thumbnail
 * `/delthumb` Delete Thumbnail
-> Broadcast Send Message To All User 
-* `/broadcast` reply to message
 
 
 
