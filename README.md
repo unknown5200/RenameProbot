@@ -41,5 +41,20 @@ Telegram File Renamer Bot
 
 
 
+## Follow Me🔥:
+
+
+<p align="left">
+<a href="https://t.me/+4BCzLkyATjswNTA1"><img src="https://img.shields.io/badge/Join%20Our%20Channel-Vivek%20Tomar-darkblue?style=for-the-badge&logo=telegram"></a>
+</p>
+<p align="left">
+<a href="https://github.com/im-vivektomar"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="left">
+<a href="https://twitter.com/im_vivek_tomar"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?style=for-the-badge&logo=twitter"></a>
+</p>
+<p align="left">
+<a href="https://instagram.com/im_vivek_tomar"><img src="https://img.shields.io/badge/Instagram-Vivek Tomar-magenta?style=for-the-badge&logo=instagram"></a>
+</p>
 
 
