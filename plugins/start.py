@@ -9,11 +9,11 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	Hello 👋 {message.from_user.first_name }
 	
-         👉 I'm a TG Renamer Bot
+👉 I'm a TG Renamer Bot
 
-	 👉 I can Rename any File ✍️ with Custom Thumbnail and Reupload it to Telegram as File or Video.
+👉 I can Rename any File ✍️ with Custom Thumbnail and Reupload it to Telegram as File or Video.
          
-         👉 Maintained With ❤️ By : @ChVivekTomar
+👉 Maintained With ❤️ By : @ChVivekTomar
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/+4BCzLkyATjswNTA1") ]  ]))
