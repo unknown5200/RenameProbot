@@ -7,10 +7,13 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-	𝐇𝐞𝐥𝐥𝐨 👋 {message.from_user.first_name }
-	𝐈 𝐚𝐦 𝐚 𝐓𝐆 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭.
-	𝐈 𝐂𝐚𝐧 𝐫𝐞𝐧𝐚𝐦𝐞 𝐚𝐧𝐲 𝐅𝐢𝐥𝐞 ✍️ 𝐰𝐢𝐭𝐡 𝐂𝐮𝐬𝐭𝐨𝐦 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐚𝐧𝐝 𝐑𝐞𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐬 𝐅𝐢𝐥𝐞 𝐨𝐫 𝐕𝐢𝐝𝐞𝐨.
-Maintained With ❤️ By : @ChVivekTomar
+	Hello 👋 {message.from_user.first_name }
+	
+         👉 I'm a TG Renamer Bot
+
+	 👉 I can Rename any File ✍️ with Custom Thumbnail and Reupload it to Telegram as File or Video.
+         
+         👉 Maintained With ❤️ By : @ChVivekTomar
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/+4BCzLkyATjswNTA1") ]  ]))
