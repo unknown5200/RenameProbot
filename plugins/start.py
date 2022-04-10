@@ -7,7 +7,7 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-	Hello 👋 {message.from_user.first_name }
+	𝐇𝐞𝐥𝐥𝐨 👋 {message.from_user.first_name }
 	
 ➡️ 𝐈'𝐦 𝐚 𝐓𝐆 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 𝐁𝐨𝐭
 
