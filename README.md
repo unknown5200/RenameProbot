@@ -1,6 +1,6 @@
 # RENAMER_BOT
 
-Telegram File Renamer Demo Bot @Renamer_Pro_bot
+Telegram File Renamer Demo Bot [Rename Pro Bot](https://t.me/Renamer_Pro_bot)
 
 <p align="center">
   <a href="https://www.python.org">
