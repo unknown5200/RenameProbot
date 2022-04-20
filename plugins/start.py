@@ -16,7 +16,7 @@ async def start(client,message):
 ➠ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ᴡɪᴛʜ ❤️ ʙʏ : @ChVivekTomar
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/+4BCzLkyATjswNTA1") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/ItsAll_AboutMe") ]  ]))
 	
 
 
