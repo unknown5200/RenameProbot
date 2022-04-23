@@ -1,4 +1,12 @@
 # RENAME-PRO
+
+## DEMO-BOT 👇👇
+
+[RENAME PRO ROBOT](https://t.me/Renamer_Pro_bot)
+
+
+
+
 A File Rename Bot with Custom Thumbnail Support
 
 
@@ -12,9 +20,6 @@ A File Rename Bot with Custom Thumbnail Support
 </p>
 
 
-## DEMO-BOT 👇👇
-
-[RENAME PRO ROBOT](https://t.me/Renamer_Pro_bot)
 
 
 
