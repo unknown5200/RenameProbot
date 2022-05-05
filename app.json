@@ -8,8 +8,8 @@
     "repository": "https://github.com/im-vivektomar/RENAME-PRO",
     "success_url": "https://telegram.dog/ChVivekTomar",
     "env": {
-        "APP_ID": {
-            "description": "Your APP ID From my.telegram.org ",
+        "API_ID": {
+            "description": "Your API ID From my.telegram.org ",
             "value": ""
         },
         "API_HASH": {
@@ -22,6 +22,9 @@
         },
         "ADMIN": {
             "description":"Add Your User ID"
+        },
+        "CHANNEL": {
+            "description":"Your Channel User Name without @"
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
