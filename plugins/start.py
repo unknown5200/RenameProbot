@@ -22,7 +22,6 @@ async def start(client,message):
 	
 
 
-
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client,message):
        update_channel = CHANNEL
