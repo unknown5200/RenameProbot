@@ -51,7 +51,7 @@ async def doc(bot,update):
      		img.resize((320, 320))
      		img.save(ph_path, "JPEG")
      		c_time = time.time()
-     		await ms.edit("```Trying To Uploading```")
+     		await ms.edit("```Trying To Upload```")
      		c_time = time.time()
      		try:
      			await bot.send_document(update.message.chat.id,document = file_path,thumb=ph_path,caption = f"**{new_filename}**",progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
