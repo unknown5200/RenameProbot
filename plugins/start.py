@@ -3,6 +3,8 @@ from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceRep
 import humanize
 from helper.database import  insert 
 from pyrogram.file_id import FileId
+CHANNEL = os.environ.get("CAHNNEL", "")
+
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
 	insert(int(message.chat.id))
