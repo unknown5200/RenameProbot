@@ -2,7 +2,6 @@ from helper.progress import progress_for_pyrogram
 from pyrogram import Client, filters
 from pyrogram.types import (  InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from hachoir.metadata import extractMetadata
-from pyrogram.file_id import FileId
 from hachoir.parser import createParser
 from helper.database import find
 import os
@@ -52,7 +51,7 @@ async def doc(bot,update):
      		img.resize((320, 320))
      		img.save(ph_path, "JPEG")
      		c_time = time.time()
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_document(update.message.chat.id,document = file_path,thumb=ph_path,caption = f"**{new_filename}**",progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
@@ -65,7 +64,7 @@ async def doc(bot,update):
      			os.remove(ph_path)
      			     		     		
      else:
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_document(update.message.chat.id,document = file_path,caption = f"**{new_filename}**",progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
@@ -108,7 +107,7 @@ async def vid(bot,update):
      		img.resize((320, 320))
      		img.save(ph_path, "JPEG")
      		c_time = time.time()
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_video(update.message.chat.id,video = file_path,caption = f"**{new_filename}**",thumb=ph_path,duration =duration, progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
@@ -121,7 +120,7 @@ async def vid(bot,update):
      				os.remove(ph_path)
      				
      else:
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_video(update.message.chat.id,video = file_path,caption = f"**{new_filename}**",duration = duration, progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
@@ -162,7 +161,7 @@ async def aud(bot,update):
      		img = Image.open(ph_path)
      		img.resize((320, 320))
      		img.save(ph_path, "JPEG")
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_audio(update.message.chat.id,audio = file_path,caption = f"**{new_filename}**",thumb=ph_path,duration =duration, progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
@@ -174,7 +173,7 @@ async def aud(bot,update):
      			os.remove(file_path)
      			os.remove(ph_path)
      else:
-     		await ms.edit("```Trying To Upload```")
+     		await ms.edit("```Trying To Uploading```")
      		c_time = time.time()
      		try:
      			await bot.send_audio(update.message.chat.id,audio = file_path,caption = f"**{new_filename}**",duration = duration, progress=progress_for_pyrogram,progress_args=( "```Trying To Uploading```",  ms, c_time   ))
